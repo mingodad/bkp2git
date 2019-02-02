@@ -1,4 +1,4 @@
-#bkp2git
+# bkp2git
 
 A shell script to create a git repository from a set of backup files.
 
