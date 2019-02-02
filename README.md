@@ -2,7 +2,7 @@
 
 A shell script to create a git repository from a set of backup files.
 
-It come with settings to test it with the "indent" GNU project as example (please use a mirror near you).
+It comes with settings to test with the "indent" GNU project as example (please use a mirror near you).
 
 The script will create a folder to hold the git repository and use a specific type of backup files:
 
@@ -33,9 +33,9 @@ indent-2.2.11
 indent-2.2.12
 ```
 
-Then for each backup file it extract it and create a symbolic link for the ".git" folder previoulsy created,
-and execute the needed git commands to add/commit the changes found.
+Then each backup file is extracted and a symbolic link is created for the ".git" folder previoulsy created,
+then execute the needed git commands to add/commit the changes found.
 
-After each backup file have been processed it is removed, except the last one to allow to check the final result.
+After each backup file has been processed it's removed, except the last one to allow check the final result.
 
 For your specific case you'll need to make some adjusts to this script, mainly the backup extension and the program to extract the contents of it.
